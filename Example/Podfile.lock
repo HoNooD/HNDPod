@@ -1,0 +1,41 @@
+PODS:
+  - AFNetworking/Serialization (3.2.1)
+  - HNDPod (0.1.0):
+    - HNDPod/FeatureX (= 0.1.0)
+    - HNDPod/FeatureY (= 0.1.0)
+  - HNDPod/FeatureX (0.1.0):
+    - AFNetworking/Serialization
+    - Mantle
+  - HNDPod/FeatureY (0.1.0):
+    - Masonry
+    - SDWebImage/Core
+  - Mantle (2.1.1):
+    - Mantle/extobjc (= 2.1.1)
+  - Mantle/extobjc (2.1.1)
+  - Masonry (1.1.0)
+  - SDWebImage/Core (5.5.2)
+
+DEPENDENCIES:
+  - HNDPod (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - AFNetworking
+    - Mantle
+    - Masonry
+    - SDWebImage
+
+EXTERNAL SOURCES:
+  HNDPod:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  HNDPod: 35d2ca29517b47c5a439cf72297e8834a5e426d0
+  Mantle: 35238ae6f2e2b2d474fa7b67fee82a59fea71915
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  SDWebImage: 4d5c027c935438f341ed33dbac53ff9f479922ca
+
+PODFILE CHECKSUM: 1c79f3dcaafd5641a32c9cfec5179b3c3a217bb8
+
+COCOAPODS: 1.9.0

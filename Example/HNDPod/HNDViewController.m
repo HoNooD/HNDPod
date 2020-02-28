@@ -8,6 +8,9 @@
 
 #import "HNDViewController.h"
 
+#import <HNDPod/FeatureX.h>
+#import <HNDPod/FeatureY.h>
+
 @interface HNDViewController ()
 
 @end
@@ -17,7 +20,19 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    // Do any additional setup after loading the view, typically from a nib.
+    
+    NSLog(@"\nIn FeatureX:"
+          "\n\tAFURLRequestSerializationErrorDomain = %@"
+          "\n\tMTLPropertyStoragePermanent = %tu",
+          AFURLRequestSerializationErrorDomain,
+          MTLPropertyStoragePermanent);
+    
+    NSLog(@"\nIn FeatureY:"
+          "\n\tMASAttributeLeading = %zd"
+          "\n\tSDWebImageErrorDomain = %@",
+          MASAttributeLeading,
+          SDWebImageErrorDomain);
 }
 
 - (void)didReceiveMemoryWarning
