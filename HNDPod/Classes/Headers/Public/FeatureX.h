@@ -5,6 +5,7 @@
 //  Created by HoNooD on 2020/2/28.
 //
 
-#import <AFNetworking/AFNetworking-umbrella.h>
+#import <AFNetworking/AFURLRequestSerialization.h>
+#import <AFNetworking/AFURLResponseSerialization.h>
 
 #import <Mantle/Mantle.h>
