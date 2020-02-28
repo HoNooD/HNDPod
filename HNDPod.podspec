@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'HNDPod'
-  s.version          = '0.1.0'
+  s.version          = '0.2.0'
   s.summary          = 'A pod used to test my idea'
 
 # This description is used to generate tags and improve search results.
@@ -32,12 +32,12 @@ Pod::Spec.new do |s|
   s.public_header_files = 'HNDPod/Classes/Headers/Public/*.h'
   
   s.subspec 'FeatureX' do |ss|
-    ss.dependency 'AFNetworking/Serialization'
-    ss.dependency 'Mantle'
+    ss.dependency 'AFNetworking/Serialization', '3.2.1'
+    ss.dependency 'Mantle', '2.1.1'
   end
   
   s.subspec 'FeatureY' do |ss|
-    ss.dependency 'Masonry'
-    ss.dependency 'SDWebImage/Core'
+    ss.dependency 'Masonry', '1.1.0'
+    ss.dependency 'SDWebImage/Core', '5.5.2'
   end
 end
